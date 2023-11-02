@@ -12,7 +12,6 @@ export const Footer = () => {
           <h1 className="ea">Packo Lemoa</h1>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            
             <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
