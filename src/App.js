@@ -5,10 +5,13 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { inject } from '@vercel/analytics';
+ 
 
 function App() {
   return (
     <div className="App">
+      
       <NavBar />
       <Banner />
       <Skills />
