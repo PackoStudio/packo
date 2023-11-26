@@ -7,6 +7,7 @@ import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 import { inject } from '@vercel/analytics';
  
+inject()
 
 function App() {
   return (
