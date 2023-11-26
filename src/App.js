@@ -5,7 +5,7 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
-import { inject } from '@vercel/analytics';
+import { inject } from "@vercel/analytics";
  
 inject()
 
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+ 
